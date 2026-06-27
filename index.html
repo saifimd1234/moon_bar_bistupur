@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moon — Bar &amp; Restaurant · Bistupur, Jamshedpur</title>
+  <meta name="description" content="Moon — a lunar bar and restaurant in Bistupur, Jamshedpur. Craft cocktails, a modern kitchen and late nights under a perpetual moon." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Moon — Bar & Restaurant" />
+  <meta property="og:description" content="Craft cocktails, a modern kitchen and late nights in Bistupur, Jamshedpur." />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon: a crescent moon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M22 24A11 11 0 1 1 19 2a9 9 0 1 0 3 22Z' fill='%23e7c873'/%3E%3C/svg%3E" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- Grain + glow overlays -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Loader -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader__moon"></div>
+    <span class="loader__word">MOON</span>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <a href="#top" class="brand" aria-label="Moon — home">
+      <span class="brand__mark" aria-hidden="true"></span>
+      <span class="brand__name">MOON</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="#experience">Experience</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+      <a href="https://wa.me/919263783025" class="nav__cta" target="_blank" rel="noopener">Reserve</a>
+    </nav>
+
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__sky" aria-hidden="true">
+        <div class="moon" id="moon">
+          <div class="moon__glow"></div>
+          <div class="moon__body"></div>
+        </div>
+        <div class="stars" id="stars"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="eyebrow reveal" data-reveal>Bistupur · Jamshedpur</p>
+        <h1 class="hero__title reveal" data-reveal>
+          <span class="line">Dining beneath</span>
+          <span class="line line--accent"><em>a perpetual moon</em></span>
+        </h1>
+        <p class="hero__sub reveal" data-reveal>
+          A bar and restaurant where the evening softens, the lights dim low,
+          and every plate and pour is made for the night.
+        </p>
+        <div class="hero__actions reveal" data-reveal>
+          <a href="https://wa.me/919263783025" class="btn btn--solid" target="_blank" rel="noopener">Reserve a table</a>
+          <a href="#menu" class="btn btn--ghost">Explore the menu</a>
+        </div>
+      </div>
+
+      <a href="#ethos" class="scrollcue" aria-label="Scroll down">
+        <span>Scroll</span>
+        <span class="scrollcue__line"></span>
+      </a>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Craft Cocktails</span><span class="dot">✦</span>
+        <span>A Modern Kitchen</span><span class="dot">✦</span>
+        <span>Late Nights</span><span class="dot">✦</span>
+        <span>Slow Evenings</span><span class="dot">✦</span>
+        <span>Craft Cocktails</span><span class="dot">✦</span>
+        <span>A Modern Kitchen</span><span class="dot">✦</span>
+        <span>Late Nights</span><span class="dot">✦</span>
+        <span>Slow Evenings</span><span class="dot">✦</span>
+      </div>
+    </div>
+
+    <!-- ETHOS -->
+    <section class="ethos" id="ethos">
+      <p class="ethos__eyebrow reveal" data-reveal>— The idea of Moon</p>
+      <p class="ethos__statement reveal" data-reveal>
+        We built Moon for the hours that belong to no one and everyone —
+        when the city quiets, conversation deepens, and a good table feels
+        like the only place to be. <span class="muted">Part restaurant, part bar,
+        wholly a place to linger.</span>
+      </p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience" id="experience">
+      <header class="section-head reveal" data-reveal>
+        <span class="section-head__num">01 — 03</span>
+        <h2 class="section-head__title">The Experience</h2>
+      </header>
+
+      <!-- Row 1 -->
+      <article class="xrow reveal" data-reveal>
+        <div class="xrow__media">
+          <div class="ph ph--bar">
+            <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1200&q=70"
+                 alt="Cocktails on a dim bar counter" loading="lazy"
+                 onerror="this.classList.add('img-failed')" />
+          </div>
+        </div>
+        <div class="xrow__text">
+          <span class="xrow__index">01</span>
+          <h3>The Bar</h3>
+          <p>
+            A long, low-lit counter and a menu of cocktails built like
+            compositions — bittersweet, balanced, a little theatrical.
+            Sit close, watch the pour, let the night begin slowly.
+          </p>
+          <a href="#menu" class="link-draw">See the drinks</a>
+        </div>
+      </article>
+
+      <!-- Row 2 (reversed) -->
+      <article class="xrow xrow--rev reveal" data-reveal>
+        <div class="xrow__media">
+          <div class="ph ph--kitchen">
+            <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=70"
+                 alt="Plated dish from the kitchen" loading="lazy"
+                 onerror="this.classList.add('img-failed')" />
+          </div>
+        </div>
+        <div class="xrow__text">
+          <span class="xrow__index">02</span>
+          <h3>The Kitchen</h3>
+          <p>
+            A modern kitchen that cooks with intent — familiar comforts
+            reworked, sharp flavours, plates meant to be shared across
+            a candlelit table.
+          </p>
+          <a href="#menu" class="link-draw">See the food</a>
+        </div>
+      </article>
+
+      <!-- Row 3 -->
+      <article class="xrow reveal" data-reveal>
+        <div class="xrow__media">
+          <div class="ph ph--lounge">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=70"
+                 alt="Warm, moody restaurant interior" loading="lazy"
+                 onerror="this.classList.add('img-failed')" />
+          </div>
+        </div>
+        <div class="xrow__text">
+          <span class="xrow__index">03</span>
+          <h3>The Lounge</h3>
+          <p>
+            Soft seating, softer light, and music kept at the volume of
+            good conversation. The corner of Moon made for staying
+            an hour longer than you planned.
+          </p>
+          <a href="#visit" class="link-draw">Plan a visit</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu" id="menu">
+      <div class="menu__inner">
+        <header class="section-head section-head--center reveal" data-reveal>
+          <span class="section-head__num">The Menus</span>
+          <h2 class="section-head__title">Read before you arrive</h2>
+        </header>
+
+        <div class="menu__list">
+          <a class="menu-item reveal" data-reveal
+             href="https://drive.google.com/drive/folders/1rDOGO-scJSvc_UDuC37MiJUSzfwxhjDv"
+             target="_blank" rel="noopener">
+            <span class="menu-item__no">I</span>
+            <span class="menu-item__body">
+              <span class="menu-item__name">The Kitchen</span>
+              <span class="menu-item__desc">Small plates, mains &amp; shareables</span>
+            </span>
+            <span class="menu-item__cta">View<span class="arrow">↗</span></span>
+          </a>
+
+          <a class="menu-item reveal" data-reveal
+             href="https://drive.google.com/drive/folders/1rDOGO-scJSvc_UDuC37MiJUSzfwxhjDv"
+             target="_blank" rel="noopener">
+            <span class="menu-item__no">II</span>
+            <span class="menu-item__body">
+              <span class="menu-item__name">The Bar</span>
+              <span class="menu-item__desc">Signature cocktails, spirits &amp; pours</span>
+            </span>
+            <span class="menu-item__cta">View<span class="arrow">↗</span></span>
+          </a>
+        </div>
+        <p class="menu__note reveal" data-reveal>Menus open in Google Drive · prices &amp; selection updated seasonally</p>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+      <header class="section-head reveal" data-reveal>
+        <span class="section-head__num">Moments</span>
+        <h2 class="section-head__title">Inside Moon</h2>
+      </header>
+
+      <div class="gallery__grid">
+        <figure class="gtile gtile--tall reveal" data-reveal>
+          <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=70" alt="Bartender finishing a cocktail" loading="lazy" onerror="this.classList.add('img-failed')" />
+        </figure>
+        <figure class="gtile reveal" data-reveal>
+          <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=900&q=70" alt="A dark, moody drink" loading="lazy" onerror="this.classList.add('img-failed')" />
+        </figure>
+        <figure class="gtile reveal" data-reveal>
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=70" alt="A beautifully plated dish" loading="lazy" onerror="this.classList.add('img-failed')" />
+        </figure>
+        <figure class="gtile gtile--wide reveal" data-reveal>
+          <img src="https://images.unsplash.com/photo-1485686531765-ba63b07845a7?auto=format&fit=crop&w=1200&q=70" alt="Friends sharing a table at night" loading="lazy" onerror="this.classList.add('img-failed')" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="visit" id="visit">
+      <div class="visit__grid">
+        <div class="visit__info">
+          <header class="section-head reveal" data-reveal>
+            <span class="section-head__num">Find us</span>
+            <h2 class="section-head__title">Visit Moon</h2>
+          </header>
+
+          <ul class="details">
+            <li class="reveal" data-reveal>
+              <span class="details__label">Address</span>
+              <a class="details__value" href="https://maps.app.goo.gl/hqoZuLTVR9TVCMrs5" target="_blank" rel="noopener">
+                Unite Mall, H2N/52, L Road,<br />Bistupur, Jamshedpur,<br />Jharkhand 831001
+              </a>
+            </li>
+            <li class="reveal" data-reveal>
+              <span class="details__label">Hours</span>
+              <span class="details__value">Open daily · 12 Noon — 11:00 PM<span class="tiny">*</span></span>
+            </li>
+            <li class="reveal" data-reveal>
+              <span class="details__label">Reservations</span>
+              <a class="details__value" href="tel:+919263783025">+91 92637 83025</a>
+            </li>
+            <li class="reveal" data-reveal>
+              <span class="details__label">Social</span>
+              <a class="details__value" href="https://www.instagram.com/moon_jamshedpur/" target="_blank" rel="noopener">@moon_jamshedpur</a>
+            </li>
+          </ul>
+
+          <div class="visit__actions reveal" data-reveal>
+            <a href="https://wa.me/919263783025" class="btn btn--solid" target="_blank" rel="noopener">Reserve on WhatsApp</a>
+            <a href="https://maps.app.goo.gl/hqoZuLTVR9TVCMrs5" class="btn btn--ghost" target="_blank" rel="noopener">Get directions</a>
+          </div>
+        </div>
+
+        <div class="visit__map reveal" data-reveal>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.230827327875!2d86.17979047530702!3d22.79390927933468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e300414ab737%3A0xbb8bee0b1f60cf1e!2sMoon!5e0!3m2!1sen!2sin!4v1782516511209!5m2!1sen!2sin"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin" title="Moon on Google Maps"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__top">
+      <a href="#top" class="brand brand--lg">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">MOON</span>
+      </a>
+      <p class="footer__tag">Bar &amp; Restaurant — Bistupur, Jamshedpur</p>
+    </div>
+
+    <div class="footer__links">
+      <a href="#experience">Experience</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+      <a href="https://www.instagram.com/moon_jamshedpur/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+
+    <div class="footer__base">
+      <span>© <span id="year">2026</span> Moon. All rights reserved.</span>
+      <span class="footer__plus">Plus code Q5VJ+HW · Jamshedpur</span>
+    </div>
+    <p class="footer__disclaim">*Hours are indicative — please confirm by phone before visiting.</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
